@@ -10,46 +10,7 @@
 
 // save 
 	
-    //Setting\\
-    
-        console.log('Connected...', update)
-    })
-
-    GojoMdNx.ev.on('creds.update', saveState)
-
-    // Add Other
-    /** Send Button 5 Image
-     *
-     * @param {*} jid
-     * @param {*} text
-     * @param {*} footer
-     * @param {*} image
-     * @param [*] button
-     * @param {*} options
-     * @returns
-     */
-    
-            footer,
-            buttons,
-            headerType: 2,
-            ...options
-        }
-        GojoMdNx.sendMessage(jid, buttonMessage, { quoted, ...options })
-    }
-    
-    /**
-     * 
-     * @param {*} jid 
-     * @param {*} text 
-     * @param {*} quoted 
-     * @param {*} options 
-     * @returns 
-     */
-    GojoMdNx.sendText = (jid, text, quoted = '', options) => GojoMdNx.sendMessage(jid, { text: text, ...options }, { quoted })
-
-    /**
-     * 
-     * @param {*} jid 
+    //
      * @param {*} path 
      * @param {*} caption 
      * @param {*} quoted 
